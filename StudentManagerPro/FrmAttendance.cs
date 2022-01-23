@@ -10,27 +10,28 @@ using System.Windows.Forms;
 
 namespace StudentManager
 {
-    public partial class FrmUserLogin : Form
-    {
-        public FrmUserLogin()
+    public partial class FrmAttendance : Form
+    {     
+        public FrmAttendance()
         {
             InitializeComponent();
         }
-
-
-        //登录
-        private void btnLogin_Click(object sender, EventArgs e)
+     
+        //显示当前时间
+        private void timer1_Tick(object sender, EventArgs e)
         {
-        
+          
         }
-        //关闭
+        //学员打卡
+   
+        private void txtStuCardNo_KeyDown(object sender, KeyEventArgs e)
+        {
+         
+        }
+        //结束打卡
         private void btnClose_Click(object sender, EventArgs e)
         {
          
         }
-
-        #region 改善用户体验
-     
-        #endregion
     }
 }

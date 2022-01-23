@@ -9,28 +9,27 @@ using System.Windows.Forms;
 
 namespace StudentManager
 {
-    public partial class FrmAddStudent : Form
+    public partial class FrmScoreManage : Form
     {
      
-        public FrmAddStudent()
+        public FrmScoreManage()
         {
             InitializeComponent();
-         
-        }
-
-        //添加新学员
-        private void btnAdd_Click(object sender, EventArgs e)
+          
+        }     
+        //根据班级查询      
+        private void cboClass_SelectedIndexChanged(object sender, EventArgs e)
         {
          
         }
-        //关闭窗体
+        //关闭
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.Close();
         }
-        //窗体已经被关闭
-        private void FrmAddStudent_FormClosed(object sender, FormClosedEventArgs e)
-        {
+        //统计全校考试成绩
+        private void btnStat_Click(object sender, EventArgs e)
+        {          
            
         }
     }

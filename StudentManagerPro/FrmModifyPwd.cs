@@ -8,29 +8,23 @@ using System.Text;
 using System.Windows.Forms;
 
 
+
 namespace StudentManager
 {
-    public partial class FrmUserLogin : Form
+    public partial class FrmModifyPwd : Form
     {
-        public FrmUserLogin()
+        public FrmModifyPwd()
         {
             InitializeComponent();
         }
-
-
-        //登录
-        private void btnLogin_Click(object sender, EventArgs e)
+        //修改密码
+        private void btnModify_Click(object sender, EventArgs e)
         {
         
         }
-        //关闭
-        private void btnClose_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
-         
+            this.Close();
         }
-
-        #region 改善用户体验
-     
-        #endregion
     }
 }

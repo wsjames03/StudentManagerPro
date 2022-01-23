@@ -1,16 +1,16 @@
-﻿namespace StudentManagerPro
+﻿namespace StudentManager
 {
     partial class FrmAddStudent
     {
         /// <summary>
-        /// Required designer variable.
+        /// 必需的设计器变量。
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
-        /// Clean up any resources being used.
+        /// 清理所有正在使用的资源。
         /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        /// <param name="disposing">如果应释放托管资源，为 true；否则为 false。</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -20,181 +20,129 @@
             base.Dispose(disposing);
         }
 
-        #region Windows Form Designer generated code
+        #region Windows 窗体设计器生成的代码
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// 设计器支持所需的方法 - 不要
+        /// 使用代码编辑器修改此方法的内容。
         /// </summary>
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmAddStudent));
-            this.lblAddStu = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.btnStartCamera = new System.Windows.Forms.Button();
-            this.btnStartPhoto = new System.Windows.Forms.Button();
-            this.btnClearPhoto = new System.Windows.Forms.Button();
-            this.btnLocalUpd = new System.Windows.Forms.Button();
-            this.groupStuInfo = new System.Windows.Forms.GroupBox();
-            this.lblStuName = new System.Windows.Forms.Label();
-            this.txtStuName = new System.Windows.Forms.TextBox();
-            this.lblGender = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.txtStudentName = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtStudentIdNo = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtPhoneNumber = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtAddress = new System.Windows.Forms.TextBox();
             this.rdoMale = new System.Windows.Forms.RadioButton();
             this.rdoFemale = new System.Windows.Forms.RadioButton();
-            this.lblBirthday = new System.Windows.Forms.Label();
-            this.datBirthday = new System.Windows.Forms.DateTimePicker();
-            this.lblClass = new System.Windows.Forms.Label();
-            this.cmbClass = new System.Windows.Forms.ComboBox();
-            this.lblIDNum = new System.Windows.Forms.Label();
-            this.txtIDNum = new System.Windows.Forms.TextBox();
-            this.lblCardNum = new System.Windows.Forms.Label();
-            this.txtCardNum = new System.Windows.Forms.TextBox();
-            this.lblPhoneNum = new System.Windows.Forms.Label();
-            this.txtPhoneNum = new System.Windows.Forms.TextBox();
-            this.lblAddr = new System.Windows.Forms.Label();
-            this.txtAddr = new System.Windows.Forms.TextBox();
-            this.lblConfirmAdd = new System.Windows.Forms.Button();
-            this.lblCloseWindow = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.groupStuInfo.SuspendLayout();
+            this.dtpBirthday = new System.Windows.Forms.DateTimePicker();
+            this.label7 = new System.Windows.Forms.Label();
+            this.cboClassName = new System.Windows.Forms.ComboBox();
+            this.btnAdd = new System.Windows.Forms.Button();
+            this.btnClose = new System.Windows.Forms.Button();
+            this.label8 = new System.Windows.Forms.Label();
+            this.txtCardNo = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // lblAddStu
+            // label1
             // 
-            this.lblAddStu.AutoSize = true;
-            this.lblAddStu.Font = new System.Drawing.Font("Microsoft YaHei", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-            this.lblAddStu.Location = new System.Drawing.Point(26, 34);
-            this.lblAddStu.Name = "lblAddStu";
-            this.lblAddStu.Size = new System.Drawing.Size(162, 38);
-            this.lblAddStu.TabIndex = 0;
-            this.lblAddStu.Text = "添加新学员";
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(26, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(65, 12);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "学生姓名：";
             // 
-            // pictureBox1
+            // txtStudentName
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(33, 83);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(242, 207);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            this.txtStudentName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtStudentName.Location = new System.Drawing.Point(97, 19);
+            this.txtStudentName.Name = "txtStudentName";
+            this.txtStudentName.Size = new System.Drawing.Size(100, 21);
+            this.txtStudentName.TabIndex = 0;
             // 
-            // pictureBox2
+            // label2
             // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox2.Location = new System.Drawing.Point(465, 83);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(243, 207);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(50, 59);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(41, 12);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "性别：";
             // 
-            // btnStartCamera
+            // label3
             // 
-            this.btnStartCamera.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnStartCamera.Location = new System.Drawing.Point(318, 83);
-            this.btnStartCamera.Name = "btnStartCamera";
-            this.btnStartCamera.Size = new System.Drawing.Size(104, 32);
-            this.btnStartCamera.TabIndex = 2;
-            this.btnStartCamera.Text = "启动摄像头";
-            this.btnStartCamera.UseVisualStyleBackColor = true;
-            this.btnStartCamera.Click += new System.EventHandler(this.btnStartCamera_Click);
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(26, 96);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(65, 12);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "出生日期：";
             // 
-            // btnStartPhoto
+            // label4
             // 
-            this.btnStartPhoto.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnStartPhoto.Location = new System.Drawing.Point(318, 131);
-            this.btnStartPhoto.Name = "btnStartPhoto";
-            this.btnStartPhoto.Size = new System.Drawing.Size(104, 32);
-            this.btnStartPhoto.TabIndex = 2;
-            this.btnStartPhoto.Text = "开始拍照";
-            this.btnStartPhoto.UseVisualStyleBackColor = true;
-            this.btnStartPhoto.Click += new System.EventHandler(this.btnStartCamera_Click);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(26, 170);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(65, 12);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "身份证号：";
             // 
-            // btnClearPhoto
+            // txtStudentIdNo
             // 
-            this.btnClearPhoto.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnClearPhoto.Location = new System.Drawing.Point(318, 179);
-            this.btnClearPhoto.Name = "btnClearPhoto";
-            this.btnClearPhoto.Size = new System.Drawing.Size(104, 32);
-            this.btnClearPhoto.TabIndex = 2;
-            this.btnClearPhoto.Text = "清除照片";
-            this.btnClearPhoto.UseVisualStyleBackColor = true;
-            this.btnClearPhoto.Click += new System.EventHandler(this.btnStartCamera_Click);
+            this.txtStudentIdNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtStudentIdNo.Location = new System.Drawing.Point(97, 164);
+            this.txtStudentIdNo.Name = "txtStudentIdNo";
+            this.txtStudentIdNo.Size = new System.Drawing.Size(198, 21);
+            this.txtStudentIdNo.TabIndex = 5;
             // 
-            // btnLocalUpd
+            // label5
             // 
-            this.btnLocalUpd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnLocalUpd.Location = new System.Drawing.Point(318, 258);
-            this.btnLocalUpd.Name = "btnLocalUpd";
-            this.btnLocalUpd.Size = new System.Drawing.Size(104, 32);
-            this.btnLocalUpd.TabIndex = 2;
-            this.btnLocalUpd.Text = "本地上传";
-            this.btnLocalUpd.UseVisualStyleBackColor = true;
-            this.btnLocalUpd.Click += new System.EventHandler(this.btnStartCamera_Click);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(26, 249);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(65, 12);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "联系电话：";
             // 
-            // groupStuInfo
+            // txtPhoneNumber
             // 
-            this.groupStuInfo.Controls.Add(this.txtIDNum);
-            this.groupStuInfo.Controls.Add(this.cmbClass);
-            this.groupStuInfo.Controls.Add(this.datBirthday);
-            this.groupStuInfo.Controls.Add(this.rdoFemale);
-            this.groupStuInfo.Controls.Add(this.rdoMale);
-            this.groupStuInfo.Controls.Add(this.txtPhoneNum);
-            this.groupStuInfo.Controls.Add(this.txtAddr);
-            this.groupStuInfo.Controls.Add(this.txtCardNum);
-            this.groupStuInfo.Controls.Add(this.txtStuName);
-            this.groupStuInfo.Controls.Add(this.lblGender);
-            this.groupStuInfo.Controls.Add(this.lblBirthday);
-            this.groupStuInfo.Controls.Add(this.lblIDNum);
-            this.groupStuInfo.Controls.Add(this.lblPhoneNum);
-            this.groupStuInfo.Controls.Add(this.lblAddr);
-            this.groupStuInfo.Controls.Add(this.lblCardNum);
-            this.groupStuInfo.Controls.Add(this.lblClass);
-            this.groupStuInfo.Controls.Add(this.lblStuName);
-            this.groupStuInfo.Location = new System.Drawing.Point(33, 317);
-            this.groupStuInfo.Name = "groupStuInfo";
-            this.groupStuInfo.Size = new System.Drawing.Size(675, 220);
-            this.groupStuInfo.TabIndex = 3;
-            this.groupStuInfo.TabStop = false;
-            this.groupStuInfo.Text = "[学员基本信息]";
+            this.txtPhoneNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtPhoneNumber.Location = new System.Drawing.Point(97, 242);
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.Size = new System.Drawing.Size(198, 21);
+            this.txtPhoneNumber.TabIndex = 7;
             // 
-            // lblStuName
+            // label6
             // 
-            this.lblStuName.AutoSize = true;
-            this.lblStuName.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblStuName.Location = new System.Drawing.Point(28, 33);
-            this.lblStuName.Name = "lblStuName";
-            this.lblStuName.Size = new System.Drawing.Size(59, 12);
-            this.lblStuName.TabIndex = 0;
-            this.lblStuName.Text = "学员姓名:";
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(26, 286);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(65, 12);
+            this.label6.TabIndex = 0;
+            this.label6.Text = "家庭住址：";
             // 
-            // txtStuName
+            // txtAddress
             // 
-            this.txtStuName.Location = new System.Drawing.Point(93, 29);
-            this.txtStuName.Name = "txtStuName";
-            this.txtStuName.Size = new System.Drawing.Size(150, 21);
-            this.txtStuName.TabIndex = 1;
-            // 
-            // lblGender
-            // 
-            this.lblGender.AutoSize = true;
-            this.lblGender.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblGender.Location = new System.Drawing.Point(272, 33);
-            this.lblGender.Name = "lblGender";
-            this.lblGender.Size = new System.Drawing.Size(35, 12);
-            this.lblGender.TabIndex = 0;
-            this.lblGender.Text = "性别:";
+            this.txtAddress.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtAddress.Location = new System.Drawing.Point(97, 280);
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.Size = new System.Drawing.Size(198, 21);
+            this.txtAddress.TabIndex = 8;
             // 
             // rdoMale
             // 
             this.rdoMale.AutoSize = true;
-            this.rdoMale.Checked = true;
-            this.rdoMale.ForeColor = System.Drawing.Color.Black;
-            this.rdoMale.Location = new System.Drawing.Point(313, 31);
+            this.rdoMale.Location = new System.Drawing.Point(97, 56);
             this.rdoMale.Name = "rdoMale";
             this.rdoMale.Size = new System.Drawing.Size(35, 16);
-            this.rdoMale.TabIndex = 2;
+            this.rdoMale.TabIndex = 1;
             this.rdoMale.TabStop = true;
             this.rdoMale.Text = "男";
             this.rdoMale.UseVisualStyleBackColor = true;
@@ -202,171 +150,109 @@
             // rdoFemale
             // 
             this.rdoFemale.AutoSize = true;
-            this.rdoFemale.ForeColor = System.Drawing.Color.Black;
-            this.rdoFemale.Location = new System.Drawing.Point(354, 31);
+            this.rdoFemale.Location = new System.Drawing.Point(138, 57);
             this.rdoFemale.Name = "rdoFemale";
             this.rdoFemale.Size = new System.Drawing.Size(35, 16);
-            this.rdoFemale.TabIndex = 3;
+            this.rdoFemale.TabIndex = 2;
+            this.rdoFemale.TabStop = true;
             this.rdoFemale.Text = "女";
             this.rdoFemale.UseVisualStyleBackColor = true;
             // 
-            // lblBirthday
+            // dtpBirthday
             // 
-            this.lblBirthday.AutoSize = true;
-            this.lblBirthday.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblBirthday.Location = new System.Drawing.Point(411, 33);
-            this.lblBirthday.Name = "lblBirthday";
-            this.lblBirthday.Size = new System.Drawing.Size(59, 12);
-            this.lblBirthday.TabIndex = 0;
-            this.lblBirthday.Text = "出生日期:";
+            this.dtpBirthday.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpBirthday.Location = new System.Drawing.Point(97, 89);
+            this.dtpBirthday.Name = "dtpBirthday";
+            this.dtpBirthday.Size = new System.Drawing.Size(105, 21);
+            this.dtpBirthday.TabIndex = 3;
             // 
-            // datBirthday
+            // label7
             // 
-            this.datBirthday.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.datBirthday.Location = new System.Drawing.Point(487, 29);
-            this.datBirthday.Name = "datBirthday";
-            this.datBirthday.Size = new System.Drawing.Size(100, 21);
-            this.datBirthday.TabIndex = 4;
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(26, 133);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(65, 12);
+            this.label7.TabIndex = 0;
+            this.label7.Text = "所在班级：";
             // 
-            // lblClass
+            // cboClassName
             // 
-            this.lblClass.AutoSize = true;
-            this.lblClass.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblClass.Location = new System.Drawing.Point(28, 76);
-            this.lblClass.Name = "lblClass";
-            this.lblClass.Size = new System.Drawing.Size(59, 12);
-            this.lblClass.TabIndex = 0;
-            this.lblClass.Text = "所在班级:";
+            this.cboClassName.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboClassName.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.cboClassName.FormattingEnabled = true;
+            this.cboClassName.Location = new System.Drawing.Point(97, 128);
+            this.cboClassName.Name = "cboClassName";
+            this.cboClassName.Size = new System.Drawing.Size(105, 20);
+            this.cboClassName.TabIndex = 4;
             // 
-            // cmbClass
+            // btnAdd
             // 
-            this.cmbClass.FormattingEnabled = true;
-            this.cmbClass.Location = new System.Drawing.Point(93, 72);
-            this.cmbClass.Name = "cmbClass";
-            this.cmbClass.Size = new System.Drawing.Size(149, 20);
-            this.cmbClass.TabIndex = 5;
+            this.btnAdd.Location = new System.Drawing.Point(97, 320);
+            this.btnAdd.Name = "btnAdd";
+            this.btnAdd.Size = new System.Drawing.Size(75, 23);
+            this.btnAdd.TabIndex = 9;
+            this.btnAdd.Text = "确认添加";
+            this.btnAdd.UseVisualStyleBackColor = true;
+            this.btnAdd.Click += new System.EventHandler(this.btnAdd_Click);
             // 
-            // lblIDNum
+            // btnClose
             // 
-            this.lblIDNum.AutoSize = true;
-            this.lblIDNum.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblIDNum.Location = new System.Drawing.Point(272, 76);
-            this.lblIDNum.Name = "lblIDNum";
-            this.lblIDNum.Size = new System.Drawing.Size(59, 12);
-            this.lblIDNum.TabIndex = 0;
-            this.lblIDNum.Text = "身份证号:";
+            this.btnClose.Location = new System.Drawing.Point(220, 320);
+            this.btnClose.Name = "btnClose";
+            this.btnClose.Size = new System.Drawing.Size(75, 23);
+            this.btnClose.TabIndex = 10;
+            this.btnClose.Text = "关闭窗口";
+            this.btnClose.UseVisualStyleBackColor = true;
+            this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // txtIDNum
+            // label8
             // 
-            this.txtIDNum.Location = new System.Drawing.Point(337, 71);
-            this.txtIDNum.Name = "txtIDNum";
-            this.txtIDNum.Size = new System.Drawing.Size(250, 21);
-            this.txtIDNum.TabIndex = 6;
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(26, 209);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(65, 12);
+            this.label8.TabIndex = 0;
+            this.label8.Text = "考勤卡号：";
             // 
-            // lblCardNum
+            // txtCardNo
             // 
-            this.lblCardNum.AutoSize = true;
-            this.lblCardNum.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCardNum.Location = new System.Drawing.Point(28, 119);
-            this.lblCardNum.Name = "lblCardNum";
-            this.lblCardNum.Size = new System.Drawing.Size(59, 12);
-            this.lblCardNum.TabIndex = 0;
-            this.lblCardNum.Text = "考勤卡号:";
-            // 
-            // txtCardNum
-            // 
-            this.txtCardNum.Location = new System.Drawing.Point(93, 115);
-            this.txtCardNum.Name = "txtCardNum";
-            this.txtCardNum.Size = new System.Drawing.Size(150, 21);
-            this.txtCardNum.TabIndex = 1;
-            // 
-            // lblPhoneNum
-            // 
-            this.lblPhoneNum.AutoSize = true;
-            this.lblPhoneNum.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblPhoneNum.Location = new System.Drawing.Point(272, 119);
-            this.lblPhoneNum.Name = "lblPhoneNum";
-            this.lblPhoneNum.Size = new System.Drawing.Size(59, 12);
-            this.lblPhoneNum.TabIndex = 0;
-            this.lblPhoneNum.Text = "联系电话:";
-            // 
-            // txtPhoneNum
-            // 
-            this.txtPhoneNum.Location = new System.Drawing.Point(337, 115);
-            this.txtPhoneNum.Name = "txtPhoneNum";
-            this.txtPhoneNum.Size = new System.Drawing.Size(250, 21);
-            this.txtPhoneNum.TabIndex = 1;
-            // 
-            // lblAddr
-            // 
-            this.lblAddr.AutoSize = true;
-            this.lblAddr.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblAddr.Location = new System.Drawing.Point(28, 162);
-            this.lblAddr.Name = "lblAddr";
-            this.lblAddr.Size = new System.Drawing.Size(59, 12);
-            this.lblAddr.TabIndex = 0;
-            this.lblAddr.Text = "家庭地址:";
-            // 
-            // txtAddr
-            // 
-            this.txtAddr.Location = new System.Drawing.Point(93, 158);
-            this.txtAddr.Name = "txtAddr";
-            this.txtAddr.Size = new System.Drawing.Size(494, 21);
-            this.txtAddr.TabIndex = 1;
-            // 
-            // lblConfirmAdd
-            // 
-            this.lblConfirmAdd.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblConfirmAdd.Image = ((System.Drawing.Image)(resources.GetObject("lblConfirmAdd.Image")));
-            this.lblConfirmAdd.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblConfirmAdd.Location = new System.Drawing.Point(465, 37);
-            this.lblConfirmAdd.Name = "lblConfirmAdd";
-            this.lblConfirmAdd.Size = new System.Drawing.Size(104, 32);
-            this.lblConfirmAdd.TabIndex = 2;
-            this.lblConfirmAdd.Text = "确认添加  ";
-            this.lblConfirmAdd.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblConfirmAdd.UseVisualStyleBackColor = true;
-            this.lblConfirmAdd.Click += new System.EventHandler(this.btnStartCamera_Click);
-            // 
-            // lblCloseWindow
-            // 
-            this.lblCloseWindow.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.lblCloseWindow.Image = ((System.Drawing.Image)(resources.GetObject("lblCloseWindow.Image")));
-            this.lblCloseWindow.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.lblCloseWindow.Location = new System.Drawing.Point(604, 37);
-            this.lblCloseWindow.Name = "lblCloseWindow";
-            this.lblCloseWindow.Size = new System.Drawing.Size(104, 32);
-            this.lblCloseWindow.TabIndex = 2;
-            this.lblCloseWindow.Text = "关闭窗口  ";
-            this.lblCloseWindow.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.lblCloseWindow.UseVisualStyleBackColor = true;
-            this.lblCloseWindow.Click += new System.EventHandler(this.btnStartCamera_Click);
+            this.txtCardNo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtCardNo.Location = new System.Drawing.Point(97, 202);
+            this.txtCardNo.Name = "txtCardNo";
+            this.txtCardNo.Size = new System.Drawing.Size(198, 21);
+            this.txtCardNo.TabIndex = 6;
             // 
             // FrmAddStudent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(741, 567);
-            this.Controls.Add(this.groupStuInfo);
-            this.Controls.Add(this.btnLocalUpd);
-            this.Controls.Add(this.btnClearPhoto);
-            this.Controls.Add(this.btnStartPhoto);
-            this.Controls.Add(this.lblCloseWindow);
-            this.Controls.Add(this.lblConfirmAdd);
-            this.Controls.Add(this.btnStartCamera);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.lblAddStu);
-            this.ForeColor = System.Drawing.Color.Purple;
+            this.ClientSize = new System.Drawing.Size(333, 365);
+            this.Controls.Add(this.btnClose);
+            this.Controls.Add(this.btnAdd);
+            this.Controls.Add(this.cboClassName);
+            this.Controls.Add(this.dtpBirthday);
+            this.Controls.Add(this.rdoFemale);
+            this.Controls.Add(this.rdoMale);
+            this.Controls.Add(this.txtAddress);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.txtCardNo);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.txtPhoneNumber);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.txtStudentIdNo);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtStudentName);
+            this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimizeBox = false;
+            this.MaximizeBox = false;
             this.Name = "FrmAddStudent";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "[添加新学员]";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.groupStuInfo.ResumeLayout(false);
-            this.groupStuInfo.PerformLayout();
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.FrmAddStudent_FormClosed);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -374,32 +260,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Label lblAddStu;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Button btnStartCamera;
-        private System.Windows.Forms.Button btnStartPhoto;
-        private System.Windows.Forms.Button btnClearPhoto;
-        private System.Windows.Forms.Button btnLocalUpd;
-        private System.Windows.Forms.GroupBox groupStuInfo;
-        private System.Windows.Forms.Label lblStuName;
-        private System.Windows.Forms.TextBox txtStuName;
-        private System.Windows.Forms.RadioButton rdoFemale;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtStudentName;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox txtStudentIdNo;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtPhoneNumber;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtAddress;
         private System.Windows.Forms.RadioButton rdoMale;
-        private System.Windows.Forms.Label lblGender;
-        private System.Windows.Forms.DateTimePicker datBirthday;
-        private System.Windows.Forms.Label lblBirthday;
-        private System.Windows.Forms.Label lblClass;
-        private System.Windows.Forms.ComboBox cmbClass;
-        private System.Windows.Forms.Label lblIDNum;
-        private System.Windows.Forms.TextBox txtIDNum;
-        private System.Windows.Forms.TextBox txtPhoneNum;
-        private System.Windows.Forms.TextBox txtAddr;
-        private System.Windows.Forms.TextBox txtCardNum;
-        private System.Windows.Forms.Label lblPhoneNum;
-        private System.Windows.Forms.Label lblAddr;
-        private System.Windows.Forms.Label lblCardNum;
-        private System.Windows.Forms.Button lblConfirmAdd;
-        private System.Windows.Forms.Button lblCloseWindow;
+        private System.Windows.Forms.RadioButton rdoFemale;
+        private System.Windows.Forms.DateTimePicker dtpBirthday;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.ComboBox cboClassName;
+        private System.Windows.Forms.Button btnAdd;
+        private System.Windows.Forms.Button btnClose;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox txtCardNo;
     }
 }

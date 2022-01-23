@@ -3,19 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 
-namespace StudentManagerPro
+
+namespace StudentManager
 {
     static class Program
     {
         /// <summary>
-        /// The main entry point for the application.
+        /// 应用程序的主入口点。
         /// </summary>
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmUserLogin());
+
+
+            Application.Run(new FrmMain());
         }
+
     }
 }

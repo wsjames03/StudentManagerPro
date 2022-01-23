@@ -1,36 +1,32 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Text.RegularExpressions;
 
 
 namespace StudentManager
 {
-    public partial class FrmUserLogin : Form
+    public partial class FrmEditStudent : Form
     {
-        public FrmUserLogin()
+        public FrmEditStudent()
         {
             InitializeComponent();
         }
+ 
 
-
-        //登录
-        private void btnLogin_Click(object sender, EventArgs e)
+        //�ύ�޸�
+        private void btnModify_Click(object sender, EventArgs e)
         {
         
         }
-        //关闭
+
         private void btnClose_Click(object sender, EventArgs e)
         {
-         
+            this.Close();
         }
-
-        #region 改善用户体验
-     
-        #endregion
     }
 }
