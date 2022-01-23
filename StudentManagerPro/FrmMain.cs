@@ -14,6 +14,8 @@ namespace StudentManagerPro
         public FrmMain()
         {
             InitializeComponent();
+            // var connstring = DAL.SQLHelper.ConnString;
+
         }
 
         private void btnAddStudent_Click(object sender, EventArgs e)
