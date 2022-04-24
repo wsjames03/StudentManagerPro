@@ -220,6 +220,7 @@
             // 
             // txtStudentId
             // 
+            this.txtStudentId.Enabled = false;
             this.txtStudentId.Location = new System.Drawing.Point(93, 12);
             this.txtStudentId.Name = "txtStudentId";
             this.txtStudentId.ReadOnly = true;

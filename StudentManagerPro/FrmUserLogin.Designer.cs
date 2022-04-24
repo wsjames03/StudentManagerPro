@@ -63,7 +63,7 @@
             this.txtLoginId.Name = "txtLoginId";
             this.txtLoginId.Size = new System.Drawing.Size(135, 21);
             this.txtLoginId.TabIndex = 0;
-            this.txtLoginId.Text = "1001";
+            this.txtLoginId.Text = "1002";
             this.txtLoginId.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtLoginId_KeyDown);
             // 
             // txtLoginPwd

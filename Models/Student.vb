@@ -20,6 +20,7 @@ Namespace Models
         Public Property StudentAddress As String
         Public Property CardNo As String
         Public Property ClassId As Integer
+        Public Property StuImage As String
     End Class
 
 End Namespace

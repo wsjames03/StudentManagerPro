@@ -69,7 +69,7 @@
             this.SQLServerDB});
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("SimSun", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
@@ -80,7 +80,7 @@
             this.dgvScoreList.ReadOnly = true;
             this.dgvScoreList.RowTemplate.Height = 23;
             this.dgvScoreList.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dgvScoreList.Size = new System.Drawing.Size(485, 186);
+            this.dgvScoreList.Size = new System.Drawing.Size(500, 186);
             this.dgvScoreList.TabIndex = 7;
             // 
             // StudentId
@@ -243,7 +243,7 @@
             this.lblList.ItemHeight = 12;
             this.lblList.Location = new System.Drawing.Point(16, 18);
             this.lblList.Name = "lblList";
-            this.lblList.Size = new System.Drawing.Size(135, 64);
+            this.lblList.Size = new System.Drawing.Size(151, 64);
             this.lblList.TabIndex = 13;
             // 
             // groupBox2
@@ -251,7 +251,7 @@
             this.groupBox2.Controls.Add(this.lblList);
             this.groupBox2.Location = new System.Drawing.Point(330, 234);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(167, 96);
+            this.groupBox2.Size = new System.Drawing.Size(182, 96);
             this.groupBox2.TabIndex = 14;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "缺考人员名单";
@@ -280,7 +280,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 367);
+            this.ClientSize = new System.Drawing.Size(524, 367);
             this.Controls.Add(this.btnStat);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.gbStat);

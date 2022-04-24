@@ -114,8 +114,20 @@
     <EmbeddedResource Include="FrmAddStudent.resx">
       <DependentUpon>FrmAddStudent.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmEditStudent.resx">
+      <DependentUpon>FrmEditStudent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmMain.resx">
       <DependentUpon>FrmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScoreManage.resx">
+      <DependentUpon>FrmScoreManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmScoreQuery.resx">
+      <DependentUpon>FrmScoreQuery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmStudentInfo.resx">
+      <DependentUpon>FrmStudentInfo.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmStudentManage.resx">
       <DependentUpon>FrmStudentManage.cs</DependentUpon>
@@ -154,8 +166,6 @@
       <Name>Models</Name>
     </ProjectReference>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Common\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

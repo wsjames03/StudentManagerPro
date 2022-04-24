@@ -44,13 +44,36 @@ namespace StudentManager
 
         }
 
+        public static FrmStudentManage objFrmStudentManage = null;
         private void tsmiManageStudent_Click(object sender, EventArgs e)
         {
-
+            if (objFrmStudentManage == null)
+            {
+                objFrmStudentManage = new FrmStudentManage();
+                objFrmStudentManage.Show();
+            }
+            else
+            {
+                objFrmStudentManage.Activate();//激活只能在最小化的时候起作用
+                objFrmStudentManage.WindowState = FormWindowState.Normal;
+            }
         }
+
         //显示成绩查询与分析窗口    
+        public static FrmScoreManage ObjFrmScoreManage = null;
+
         private void tsmiQueryAndAnalysis_Click(object sender, EventArgs e)
         {
+            if (ObjFrmScoreManage == null)
+            {
+                ObjFrmScoreManage = new FrmScoreManage();
+                ObjFrmScoreManage.Show();
+            }
+            else
+            {
+                ObjFrmScoreManage.Activate();//激活只能在最小化的时候起作用
+                ObjFrmScoreManage.WindowState = FormWindowState.Normal;
+            }
         }
         //退出系统
         private void tmiClose_Click(object sender, EventArgs e)
@@ -58,10 +81,22 @@ namespace StudentManager
             this.Close();
         }
 
+        //显示成绩查询与分析窗口    
+        public static FrmScoreQuery ObjFrmScoreQuery = null;
+        
         //成绩快速查询
         private void tsmiQuery_Click(object sender, EventArgs e)
         {
-
+            if (ObjFrmScoreQuery == null)
+            {
+                ObjFrmScoreQuery = new FrmScoreQuery();
+                ObjFrmScoreQuery.Show();
+            }
+            else
+            {
+                ObjFrmScoreQuery.Activate();//激活只能在最小化的时候起作用
+                ObjFrmScoreQuery.WindowState = FormWindowState.Normal;
+            }
         }
         //密码修改
         private void tmiModifyPwd_Click(object sender, EventArgs e)
@@ -109,6 +144,6 @@ namespace StudentManager
             }
         }
 
-  
+
     }
 }
